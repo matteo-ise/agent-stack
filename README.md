@@ -103,6 +103,15 @@ npm run dev
 - [ ] Erweiterte Templates für Industrie & Handel
 - [ ] One-Click Deployment für AWS/GCP
 
+
+## 🚀 Quantum Leap Architecture: K8s Operator & Service Mesh
+
+Ein `npx create` Skript reicht nicht für den Konzernbetrieb. KontorStack ist Cloud-Native:
+- **Kubernetes Operator:** Spinnt das gesamte Agenten-Ökosystem via `kubectl apply` hoch.
+- **Envoy Proxy Sidecars:** mTLS, Rate-Limiting und JSON-RPC Routing *out of the box*.
+- **OpenTelemetry:** Distributed Tracing für jeden Token und Tool-Call direkt in Jaeger/Grafana.
+
+
 ---
 
 **Teil des Agentic Commerce Stack von Matteo Ise:**
