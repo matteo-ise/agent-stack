@@ -10,7 +10,7 @@
  */
 
 export function startDashboard() {
-  console.log('Starting KontorStack Governance Dashboard...');
+  console.log('Starting AgentStack Governance Dashboard...');
   console.log('Dashboard available at http://localhost:3000');
   console.log('- Activity Monitor: Active');
   console.log('- Approval Queue: Pending escalations shown');

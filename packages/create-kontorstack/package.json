@@ -1,10 +1,10 @@
 {
-  "name": "create-kontorstack",
+  "name": "create-agent-stack",
   "version": "1.0.0",
-  "description": "CLI to create a new KontorStack project",
+  "description": "CLI to create a new AgentStack project",
   "type": "module",
   "bin": {
-    "create-kontorstack": "./dist/index.js"
+    "create-agent-stack": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc"

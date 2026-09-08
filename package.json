@@ -1,7 +1,7 @@
 {
-  "name": "kontorstack-monorepo",
+  "name": "agent-stack-monorepo",
   "version": "1.0.0",
-  "description": "KontorStack - Das Betriebssystem für agentische Unternehmen",
+  "description": "AgentStack - Das Betriebssystem für agentische Unternehmen",
   "private": true,
   "type": "module",
   "workspaces": [

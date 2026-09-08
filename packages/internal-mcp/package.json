@@ -1,5 +1,5 @@
 {
-  "name": "@kontorstack/internal-mcp",
+  "name": "@agent-stack/internal-mcp",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@kontorstack/core": "workspace:*"
+    "@agent-stack/core": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

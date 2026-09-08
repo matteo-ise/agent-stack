@@ -35,7 +35,7 @@ export const PaymentsConfigSchema = z.object({
   policies: z.array(z.string()),
 });
 
-export const KontorStackConfigSchema = z.object({
+export const AgentStackConfigSchema = z.object({
   company: CompanyConfigSchema,
   internal: z.object({ mcp: InternalMcpConfigSchema }),
   public: z.object({ mcp: PublicMcpConfigSchema, wellKnown: z.boolean().optional() }),
@@ -43,11 +43,11 @@ export const KontorStackConfigSchema = z.object({
   payments: PaymentsConfigSchema,
 });
 
-export type KontorStackConfig = z.infer<typeof KontorStackConfigSchema>;
+export type AgentStackConfig = z.infer<typeof AgentStackConfigSchema>;
 
 /**
- * Defines a KontorStack configuration with full type safety.
+ * Defines a AgentStack configuration with full type safety.
  */
-export function defineConfig(config: KontorStackConfig): KontorStackConfig {
-  return KontorStackConfigSchema.parse(config);
+export function defineConfig(config: AgentStackConfig): AgentStackConfig {
+  return AgentStackConfigSchema.parse(config);
 }

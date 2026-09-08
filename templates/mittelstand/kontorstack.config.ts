@@ -1,4 +1,4 @@
-import { defineConfig } from '@kontorstack/core';
+import { defineConfig } from '@agent-stack/core';
 
 export default defineConfig({
   company: {

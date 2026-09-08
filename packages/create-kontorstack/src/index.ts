@@ -7,24 +7,24 @@ import path from 'path';
 const program = new Command();
 
 program
-  .name('create-kontorstack')
-  .description('Scaffold a new KontorStack project')
+  .name('create-agent-stack')
+  .description('Scaffold a new AgentStack project')
   .version('1.0.0')
   .action(async () => {
-    console.log('🏗️  Welcome to KontorStack - Das Betriebssystem für agentische Unternehmen\\n');
+    console.log('🏗️  Welcome to AgentStack - Das Betriebssystem für agentische Unternehmen\\n');
 
     const response = await prompts([
       {
         type: 'text',
         name: 'companyName',
         message: 'Firmenname?',
-        initial: 'KontorStack GmbH'
+        initial: 'AgentStack GmbH'
       },
       {
         type: 'text',
         name: 'domain',
         message: 'Domain?',
-        initial: 'kontorstack.de'
+        initial: 'agent-stack.de'
       },
       {
         type: 'select',
@@ -86,7 +86,7 @@ program
       return;
     }
 
-    console.log('\\n🚀 Initializing KontorStack...');
+    console.log('\\n🚀 Initializing AgentStack...');
     console.log(`- Template: ${response.size}`);
     console.log(`- Integrations: ${response.integrations.join(', ')}`);
     console.log(`- Payments: ${response.payments}`);
@@ -96,7 +96,7 @@ program
     // For this demonstration, we'll write a basic message indicating success.
     
     console.log('\\n✅ Done! Next steps:');
-    console.log('1. cd ./kontorstack-app');
+    console.log('1. cd ./agent-stack-app');
     console.log('2. npm install');
     console.log('3. npm run dev');
   });

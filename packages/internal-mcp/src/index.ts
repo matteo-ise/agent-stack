@@ -1,9 +1,9 @@
-import type { KontorStackConfig } from '@kontorstack/core';
+import type { AgentStackConfig } from '@agent-stack/core';
 
 export class InternalMcpServer {
-  private config: KontorStackConfig;
+  private config: AgentStackConfig;
 
-  constructor(config: KontorStackConfig) {
+  constructor(config: AgentStackConfig) {
     this.config = config;
   }
 
