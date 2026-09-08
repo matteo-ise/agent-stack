@@ -7,6 +7,12 @@
 </div>
 
 
+> [!NOTE]
+> **Proof of Concept & Infrastructure Blueprint**  
+> Dieses Repository ist Teil einer konzeptionellen Infrastruktur für Agentic Commerce. Es dient als **Proof of Concept (PoC)** und Framework-Vorlage. Der Code ist experimentell und soll Entwicklern als Ausgangspunkt dienen, um eigene M2M- und Agenten-Systeme weiterzuentwickeln. Es handelt sich noch nicht um ein finales, produktionsreifes Release.
+
+
+
 > Das Betriebssystem für agentische Unternehmen.
 
 Vom hanseatischen Kontor zur KI-Autonomie: Ein Framework, das jedes Unternehmen in 30 Minuten agentisch macht. KontorStack bündelt alle Kernkomponenten des Agentic Commerce Stack zu einer nahtlosen, out-of-the-box funktionsfähigen Plattform.
@@ -103,13 +109,6 @@ npm run dev
 - [ ] Erweiterte Templates für Industrie & Handel
 - [ ] One-Click Deployment für AWS/GCP
 
-
-## 🚀 Quantum Leap Architecture: K8s Operator & Service Mesh
-
-Ein `npx create` Skript reicht nicht für den Konzernbetrieb. KontorStack ist Cloud-Native:
-- **Kubernetes Operator:** Spinnt das gesamte Agenten-Ökosystem via `kubectl apply` hoch.
-- **Envoy Proxy Sidecars:** mTLS, Rate-Limiting und JSON-RPC Routing *out of the box*.
-- **OpenTelemetry:** Distributed Tracing für jeden Token und Tool-Call direkt in Jaeger/Grafana.
 
 
 ---
