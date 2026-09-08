@@ -1,0 +1,22 @@
+{
+  "name": "create-kontorstack",
+  "version": "1.0.0",
+  "description": "CLI to create a new KontorStack project",
+  "type": "module",
+  "bin": {
+    "create-kontorstack": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "prompts": "^2.4.4",
+    "commander": "^12.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.0.0",
+    "@types/prompts": "^2.4.9"
+  }
+}

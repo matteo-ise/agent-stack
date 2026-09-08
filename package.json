@@ -1,0 +1,15 @@
+{
+  "name": "kontorstack-monorepo",
+  "version": "1.0.0",
+  "description": "KontorStack - Das Betriebssystem für agentische Unternehmen",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces"
+  },
+  "author": "Matteo Ise",
+  "license": "MIT"
+}
