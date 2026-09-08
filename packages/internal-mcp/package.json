@@ -7,7 +7,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@agent-stack/core": "workspace:*"
+    "@agent-stack/core": "*"
   },
   "devDependencies": {
     "typescript": "^5.3.3"
